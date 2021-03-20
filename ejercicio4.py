@@ -1,8 +1,8 @@
-#!/usr/bin/env python3 
+"""
+Calcular el área de un triángulo.
+"""
 
-#calcular area de triangulo 
-
-base =  int(input('Ingresar base del triangulo: '))
+base = int(input('Ingresar base del triangulo: '))
 altura = int(input('Ingresar altura del triangulo: '))
 
 area = (base * altura) / 2

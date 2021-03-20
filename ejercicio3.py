@@ -1,11 +1,15 @@
-#!/usr/bin/env python3 
-from datetime import date 
-#calcular edad de nacimiento 
+from datetime import date
 
-hoy = date.today()
+"""
+El área de RRHH de una empresa desea filtrar los CV de los postulantes para un puesto
+vacante, el requisito mínimo es la edad, pero en los datos solo tienen la fecha de
+nacimiento.
+"""
 
-anio_nacimiento = int(input("Ingresar año de nacimiento: "))
+hoy = date.today().year
 
-edad = hoy.year - anio_nacimiento 
+nacimiento = int(input("Ingresar año de nacimiento: "))
 
-print("La edad del postulante es: ", edad)
+edad = hoy - nacimiento
+
+print("La edad del postulante es: ", edad, " años.")
