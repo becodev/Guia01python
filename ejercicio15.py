@@ -12,7 +12,7 @@ importe = float(input("Ingrese el importe a pagar: "))
 
 ivan = round((importe * 0.40), 2)
 german = round((importe * 0.33), 2)
-esteban = round((ivan * 0.55))
+esteban = round((ivan * 0.55), 2)
 hernan = round((importe - ivan - german - esteban), 2)
 
 print("Ivan debe pagar: ", ivan)
