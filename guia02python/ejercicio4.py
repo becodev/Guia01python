@@ -4,22 +4,12 @@ mismo está aprobado o desaprobado.
 """
 
 parcial1 = float(input("Ingrese nota primer parcial: "))
-
-if(parcial1 >= 6):
-    print("Parcial aprobado.")
-else:
-    print("Parcial desaprobado.")
-
 parcial2 = float(input("Ingrese nota segundo parcial: "))
-
-if(parcial2 >= 6):
-    print("Parcial aprobado.")
-else:
-    print("Parcial desaprobado.")
-
 parcial3 = float(input("Ingrese nota tercer parcial: "))
 
-if(parcial3 >= 6):
-    print("Parcial aprobado.")
+promedio = round((parcial1 + parcial2 + parcial3) / 3, 2)
+
+if(promedio >= 6):
+    print("Alumno aprobado con promedio ", promedio)
 else:
-    print("Parcial desaprobado.")
+    print("Alumno desaprobado con promedio ", promedio)

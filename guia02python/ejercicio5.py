@@ -1,7 +1,7 @@
+from datetime import date
 """
 Resuelva el ejercicio de 3 de la guía uno aplicando el filtro para los CV.
 """
-from datetime import date
 
 """
 El área de RRHH de una empresa desea filtrar los CV de los postulantes para un puesto
