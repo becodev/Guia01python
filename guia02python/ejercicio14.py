@@ -10,7 +10,7 @@ if(largo != 5):
 else:
     dia = int(fecha[0:2])
     mes = int(fecha[3:5])
-    if((dia >= 1 and dia <= 31) and (mes > 0 and mes < 32)):
+    if((dia >= 1 and dia <= 31) and (mes > 0 and mes < 13)):
         print("¡¡Fecha correcta!!")
     else:
         print("Fecha incorrecta :(")
