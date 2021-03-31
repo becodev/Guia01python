@@ -16,7 +16,6 @@ puntos = []
 
 def barajar():
     for item in repar:
-
         carta = int(input("Ingrese %s carta: " % reparto[item]))
 
         if(carta not in [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]):
@@ -44,7 +43,6 @@ def puntos(palo, cartas, palos):
         if(palo[item] == palito):
             x = cartas[item]
             envido.append(x)
-            print(x)
     if((envido[0] or envido[1]) >= 10):
         tantos = 20
     elif((envido[0] and envido[1]) < 9):

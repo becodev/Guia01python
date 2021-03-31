@@ -1,3 +1,3 @@
-Guía de ejercicios prácticos – Pensamiento Algorítmico
+Guía de ejercicios prácticos
 
-UTNFRCU - Tecnicatura Universitaria en Programacion.
+UTNFRCU - Tecnicatura Universitaria en Programación.

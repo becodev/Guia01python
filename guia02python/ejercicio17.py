@@ -3,7 +3,7 @@ Dado dos números mostrar la diferencia entre el mayor y el menor.
 """
 
 numero1 = float(input("Ingrese primer numero: "))
-numero2 = float(input("Ingrese primer numero: "))
+numero2 = float(input("Ingrese segundo numero: "))
 
 if(numero1 > numero2):
     resta = numero1 - numero2
