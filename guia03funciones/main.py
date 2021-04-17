@@ -15,3 +15,14 @@ from funciones import *
 # print(caracterRepetido(palabra, caracter))
 
 # 5
+# print(palindromo("neuquen"))
+
+# 6
+# print(serie(2))
+
+# 7
+# print(calculadora(2, 3, '+'))
+# print(calculadora(2, 3, '*'))
+
+# 8
+# print(esPrimo(7))
