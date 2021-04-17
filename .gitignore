@@ -1,0 +1,5 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+guia03funciones/__pycache__/
