@@ -26,3 +26,38 @@ from funciones import *
 
 # 8
 # print(esPrimo(7))
+
+# 9
+# print(esVocal("a"))
+
+# 10
+#print(mayor(22, 3))
+
+# 11
+#print(intercambio(2, 3))
+
+# 12
+#print(numeroAleatorio(2, 11))
+
+# 13
+# print(factorial(5))
+
+# 14
+
+# 15
+#print(hipotenusa(2, 2))
+
+# 16
+# print(alfabeto())
+
+# 17
+# tabla(2)
+
+# 18
+#print(conversorTiempo(2, 'h'))
+
+# 19
+#print(reglaTres(240, 2, 3))
+
+# 20
+#print(sumaPrimos(2, 20))
